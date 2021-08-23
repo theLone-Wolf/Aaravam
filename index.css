@@ -15,14 +15,13 @@ body {
 image {
   object-fit: contain;
 }
-/* change colours to suit your needs */
+
 ins {
   background-color: #ff9;
   color: #000;
   text-decoration: none;
 }
 
-/* change colours to suit your needs */
 mark {
   background-color: #ff9;
   color: #000;
@@ -45,7 +44,6 @@ table {
   border-spacing: 0;
 }
 
-/* change border colour to suit your needs */
 hr {
   display: block;
   height: 1px;
@@ -138,6 +136,7 @@ body {
 
 h1 {
   font-size: 3rem;
+  font-weight: bold;
 }
 
 h2 {
@@ -429,7 +428,7 @@ footer {
   height: 0px;
   width: 85px;
   position: fixed;
-  right: 0;
+  right: -8px;
   top: 90%;
   z-index: 1000;
   transform: rotate(-90deg);
@@ -440,9 +439,9 @@ footer {
 }
 #feedback button {
   display: block;
-  background: #000;
-  height: 52px;
-  padding-top: 10px;
+  height: 30px;
+  padding-top: 0px;
+  border-radius: 7px;
   width: 155px;
   text-align: center;
   color: #fff;
@@ -451,15 +450,12 @@ footer {
   font-weight: bold;
   text-decoration: none;
   outline: none;
+  cursor: pointer;
 }
 #feedback button:hover {
-  background: #00495d;
+  /*background-color: #3e8e41*/
 }
 
 #pop-up-button {
   margin: auto;
-}
-
-@media only screen and (max-width: 370px) {
-
 }
