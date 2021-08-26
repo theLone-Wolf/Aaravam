@@ -106,10 +106,12 @@ body {
   display: grid !important;
   justify-content: center !important;
   padding-bottom: 2rem;
+  height: 38rem;
 }
 
-.carousel {
+.carousel-inner {
   box-shadow: 0 0 20px rgb(156, 106, 106);
+  width: 34rem;
 }
 
 .nav {
@@ -132,6 +134,10 @@ body {
   justify-content: center;
   align-items: center;
   padding: 3rem 1rem;
+}
+
+.points1 {
+  padding-bottom : 8rem;
 }
 
 h1 {
@@ -261,8 +267,20 @@ footer {
     background-color: none !important;
   }
 
+  .carousel {
+    padding-bottom: 4rem;
+  }
   .container1 {
     padding-top: 0rem;
+  }
+
+  .carouselmain {
+    width: 20rem;
+    height: 26rem;
+  }
+
+  .carousel-inner {
+    width: 23rem;
   }
 
   .gridItem {
